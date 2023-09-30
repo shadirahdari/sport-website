@@ -1,0 +1,137 @@
+:root{
+    --SHADI_MAIN: #ff0000;
+    --SHADI_SECONDARY: #ffFFFF;
+}
+
+*{margin: 0;
+padding: 0;}
+body{
+    font-family: sans-serif;
+}
+/* .carousel-item{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.carousel-item img{
+    height: 100vh;
+} */
+.banner{
+    height:100vh;
+    position:relative
+}
+.slider{
+    width:93%;
+    float: left;
+    height: 100vh;
+}
+.carousel-caption{
+    max-height:350px !important;
+    max-width:500px !important;
+    text-align: right !important;
+    right: 60px !important;
+    left:  auto !important;
+    top:160px !important;
+}
+.carousel-caption h1{
+    font-size: 70px;
+    color: var(--SHADI_MAIN);
+
+}
+.carousel-caption p{
+    margin-top: 40px;
+}
+ .side-menu{
+  width: 7%;
+  height:100vh;
+  float:right;
+  background-color: var(--SHADI_MAIN);
+  position:relative;
+  z-index: 2;
+   }
+  .icon{
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 40px;
+   
+   }
+   .carousel-indicators{
+    left:85% !important;
+    height:40% !important;
+    width:95px !important;
+    top:55% !important;
+    display: block !important;
+    color: var(--SHADI_SECONDARY);
+   }
+   .carousel-indicators li{
+    width:10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    margin-left:40px !important;
+    margin-top:15px !important;
+    background: transparent !important;
+    border: 2px solid var(--SHADI_SECONDARY)!important;
+
+
+
+   }
+   .d-block{
+    height: 100vh;
+   }
+   .share{
+    cursor: pointer;
+    margin-left:25px;
+    margin-top: 60px;
+   }
+   .top-bar{
+    position: absolute;
+    margin: 20px 10px;
+    z-index: 2;
+   }
+   .top-bar img{
+    height: 100px;
+    cursor: pointer;
+    margin-left: 10px;
+   }
+   .top-bar ul{
+    display: inline-flex;
+   }
+   .top-bar ul li{
+    list-style: none;
+    margin: 25px 20px;
+    color: var(--SHADI_SECONDARY);
+    transition: all 0.25s ease;
+   }
+   .top-bar ul li:hover{
+    color: var(--SHADI_MAIN);
+   }
+   .top-bar ul li a{
+    color: inherit;
+    display: block;
+    padding-top: 5px;
+   }
+   .social-icon{
+    top:35%;
+    left:20px;
+    position: absolute;
+    z-index: 2;
+    color: var(--SHADI_SECONDARY);
+    
+   }
+   .social-icon  ul li{
+    list-style: none;
+    font-size: 20px;
+    transition: all 0.25s ease;
+    padding: 10px 20px;
+    color: var(--SHADI_SECONDARY);
+}
+
+   .social-icon  ul li:hover{
+    font-size: 50px;
+    color: var(--SHADI_MAIN);
+   }
+
+   .social-icon  ul li a{
+    color: inherit;
+   }
